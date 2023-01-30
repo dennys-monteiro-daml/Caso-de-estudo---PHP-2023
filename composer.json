@@ -1,0 +1,16 @@
+{
+  "name": "setting",
+  "description": "Setting env for php and composer",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dennys Monteiro",
+      "email": "dennyshagamenom@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=8.0",
+    "ext-simplexml": "*"
+  }
+}
