@@ -1,28 +1,20 @@
 {
-  "name": "setting",
-  "description": "Setting env for php and composer",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Dennys Monteiro",
-      "email": "dennyshagamenom@gmail.com",
-      "role": "Developer"
-    }
-  ],
-  "require": {
-    "php": ">=8.0",
-    "ext-simplexml": "*",
-    "phpmailer/phpmailer":"6.0.*"
-  },
-  "config": {
-    "vendor-dir": "vendor"
-  },
-  "autoload": {
-    "psr-4": {
-      "Source\\":"source/"
+    "name": "augusto/caso-de-estudo",
+    "description": "Aprimorando básico de php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Augusto\\CasoSeEstudo\\": "src/"
+        }
     },
-    "files": [
-      "source/Config.php"
-    ]
-  }
+    "authors": [
+        {
+            "name": "Dennys Monteiro",
+            "email": "dennyshagamenom@gmail.com"
+        }
+    ],
+    "require": {
+      "phpmailer/phpmailer":"^6.7"
+    }
 }
