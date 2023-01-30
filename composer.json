@@ -12,5 +12,16 @@
   "require": {
     "php": ">=8.0",
     "ext-simplexml": "*"
+  },
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\":"source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
   }
 }
